@@ -1,0 +1,10 @@
+cff-version: "1.2.0"
+message: "If you use EarthSynoptic in research or other scholarly work, please cite the software using these metadata."
+title: "EarthSynoptic"
+type: software
+authors:
+  - family-names: "Altınbaş"
+    given-names: "Şahap"
+abstract: "EarthSynoptic is an open-source initiative for the development of a global geoscience information and analysis platform designed around scientific provenance, explicit uncertainty, reproducibility, authoritative-source precedence, and transparent data governance."
+license: Apache-2.0
+repository-code: "https://github.com/sahap-altinbas/EarthSynoptic"
