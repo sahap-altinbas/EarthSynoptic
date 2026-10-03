@@ -70,6 +70,14 @@ The repository structure, governance documents, scientific source policy, licens
 
 The presence of a topic or capability in this README describes project scope or intent; it does **not** imply that the capability has already been implemented.
 
+## License
+
+EarthSynoptic software is licensed under the Apache License, Version 2.0.
+
+See [`LICENSE`](LICENSE) for the complete license text.
+
+External datasets, third-party software, imagery, maps, fonts, icons, and other third-party materials are not automatically relicensed under the EarthSynoptic software license. Their respective licenses, terms, and attribution requirements apply.
+
 ## Repository
 
 Canonical repository:
