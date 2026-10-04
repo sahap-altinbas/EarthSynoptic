@@ -1,0 +1,87 @@
+name: Feature request
+description: Propose a focused improvement or new capability for EarthSynoptic.
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for a focused product, scientific, data, or engineering enhancement.
+        For reproducible defects, use the bug report form. Do not report security vulnerabilities here; follow SECURITY.md.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: Describe the problem, unmet need, or opportunity this request addresses.
+      placeholder: What should EarthSynoptic enable or improve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: users
+    attributes:
+      label: Intended users and use case
+      description: Identify who benefits and describe the concrete workflow or decision this would support.
+      placeholder: Who needs this, and in what scenario?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed capability
+      description: Describe the requested behavior or outcome without prescribing an implementation unless necessary.
+      placeholder: What should the platform do?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: impact-area
+    attributes:
+      label: Primary impact area
+      description: Select the area most directly affected by this request.
+      options:
+        - User experience or accessibility
+        - Scientific interpretation or analysis
+        - Data ingestion, provenance, or quality
+        - Mapping or geospatial visualization
+        - Architecture, performance, or reliability
+        - Security or privacy
+        - Documentation or governance
+        - Other or cross-cutting
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence, references, or provenance context
+      description: Provide authoritative references, source identifiers, standards, research, or comparable workflows when applicable.
+      placeholder: Include links or identifiers for evidence that supports the request.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Describe other approaches or workarounds you considered and why they are insufficient.
+
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints and acceptance considerations
+      description: Note relevant scientific uncertainty, licensing, attribution, accessibility, security, performance, interoperability, or operational constraints.
+      placeholder: What conditions should a satisfactory solution respect?
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: Contributor acknowledgements
+      options:
+        - label: I searched existing issues for a duplicate or closely related request.
+          required: true
+        - label: I have not included secrets, credentials, private keys, tokens, or sensitive personal data.
+          required: true
+        - label: I understand that major architectural changes may require an ADR and that scientific or data claims require appropriate provenance.
+          required: true
