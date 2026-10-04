@@ -1,0 +1,7 @@
+# EarthSynoptic CODEOWNERS baseline
+#
+# Repository-wide default ownership.
+* @sahap-altinbas
+
+# Explicit ownership of repository governance and automation metadata.
+/.github/ @sahap-altinbas
