@@ -1,0 +1,41 @@
+# EarthSynoptic repository ignore baseline
+#
+# Keep this file conservative and toolchain-neutral.
+# Technology-specific build, dependency, cache, and generated-artifact
+# rules should be added only when the corresponding toolchain is adopted.
+
+# Operating-system generated metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Local IDE and editor state
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.swo
+*~
+
+# Local environment and secret-bearing configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Explicitly temporary local files
+*.tmp
+*.temp
+*.bak
+*.rej
